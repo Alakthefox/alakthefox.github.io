@@ -259,7 +259,9 @@
     transform: translateX(0);
     transition: transform 0.3s ease-out;
   }
-  
+.webdev{
+font-size: x-large;
+  }
   /* Contact section */
   
   .contact-section {
