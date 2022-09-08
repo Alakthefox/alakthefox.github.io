@@ -96,7 +96,8 @@
   
   .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-start;
     position: fixed;
     top: 0;
     left: 0;
@@ -113,6 +114,12 @@
     
   }
   
+  .top-btn{
+   
+  
+    color: #1f1f1f;
+    text-shadow: none;
+  }
   @media (max-width: 28.75em) {
     .nav {
       justify-content: center;
@@ -300,7 +307,7 @@ font-size: x-large;
   }
   
   .contact-details {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
   }
